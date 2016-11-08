@@ -16,3 +16,7 @@ Under /etc/salt/cloud.providers.d folder add 'ec2-us-west-2.conf' conf file
 
 Under /etc/salt/cloud.profiles.d add 'ec2_us_west-2.conf' conf file
 
+Then run 
+
+        salt-cloud -p INSTANCE_TYPE INSTANCE_NAME
+
